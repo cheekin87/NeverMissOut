@@ -21,6 +21,8 @@
 		BE010635197513D9000A7B41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE010617197513D9000A7B41 /* UIKit.framework */; };
 		BE01063D197513D9000A7B41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE01063B197513D9000A7B41 /* InfoPlist.strings */; };
 		BE01063F197513D9000A7B41 /* NeverMissOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE01063E197513D9000A7B41 /* NeverMissOutTests.m */; };
+		BE01064919751418000A7B41 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE01064819751418000A7B41 /* CoreData.framework */; };
+		BE01064E19751567000A7B41 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BE01064D19751567000A7B41 /* CoreDataHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		BE01063A197513D9000A7B41 /* NeverMissOutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeverMissOutTests-Info.plist"; sourceTree = "<group>"; };
 		BE01063C197513D9000A7B41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE01063E197513D9000A7B41 /* NeverMissOutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeverMissOutTests.m; sourceTree = "<group>"; };
+		BE01064819751418000A7B41 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BE01064C19751567000A7B41 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		BE01064D19751567000A7B41 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE01064919751418000A7B41 /* CoreData.framework in Frameworks */,
 				BE010616197513D9000A7B41 /* CoreGraphics.framework in Frameworks */,
 				BE010618197513D9000A7B41 /* UIKit.framework in Frameworks */,
 				BE010614197513D9000A7B41 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		BE010612197513D9000A7B41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE01064819751418000A7B41 /* CoreData.framework */,
 				BE010613197513D9000A7B41 /* Foundation.framework */,
 				BE010615197513D9000A7B41 /* CoreGraphics.framework */,
 				BE010617197513D9000A7B41 /* UIKit.framework */,
@@ -112,6 +119,7 @@
 		BE010619197513D9000A7B41 /* NeverMissOut */ = {
 			isa = PBXGroup;
 			children = (
+				BE01064B197514E6000A7B41 /* Generic Core Data Classes */,
 				BE010622197513D9000A7B41 /* AppDelegate.h */,
 				BE010623197513D9000A7B41 /* AppDelegate.m */,
 				BE010625197513D9000A7B41 /* Main.storyboard */,
@@ -150,6 +158,15 @@
 				BE01063B197513D9000A7B41 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE01064B197514E6000A7B41 /* Generic Core Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE01064C19751567000A7B41 /* CoreDataHelper.h */,
+				BE01064D19751567000A7B41 /* CoreDataHelper.m */,
+			);
+			name = "Generic Core Data Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +268,7 @@
 			files = (
 				BE01062A197513D9000A7B41 /* ViewController.m in Sources */,
 				BE010624197513D9000A7B41 /* AppDelegate.m in Sources */,
+				BE01064E19751567000A7B41 /* CoreDataHelper.m in Sources */,
 				BE010620197513D9000A7B41 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
