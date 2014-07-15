@@ -23,6 +23,7 @@
 		BE01063F197513D9000A7B41 /* NeverMissOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE01063E197513D9000A7B41 /* NeverMissOutTests.m */; };
 		BE01064919751418000A7B41 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE01064819751418000A7B41 /* CoreData.framework */; };
 		BE01064E19751567000A7B41 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BE01064D19751567000A7B41 /* CoreDataHelper.m */; };
+		BE010651197527BF000A7B41 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE010650197527BF000A7B41 /* CoreDataTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		BE01064819751418000A7B41 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		BE01064C19751567000A7B41 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
 		BE01064D19751567000A7B41 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		BE01064F197527BF000A7B41 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		BE010650197527BF000A7B41 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +168,8 @@
 			children = (
 				BE01064C19751567000A7B41 /* CoreDataHelper.h */,
 				BE01064D19751567000A7B41 /* CoreDataHelper.m */,
+				BE01064F197527BF000A7B41 /* CoreDataTableViewController.h */,
+				BE010650197527BF000A7B41 /* CoreDataTableViewController.m */,
 			);
 			name = "Generic Core Data Classes";
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				BE010624197513D9000A7B41 /* AppDelegate.m in Sources */,
 				BE01064E19751567000A7B41 /* CoreDataHelper.m in Sources */,
 				BE010620197513D9000A7B41 /* main.m in Sources */,
+				BE010651197527BF000A7B41 /* CoreDataTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
