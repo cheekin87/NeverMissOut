@@ -14,7 +14,6 @@
 		BE010620197513D9000A7B41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE01061F197513D9000A7B41 /* main.m */; };
 		BE010624197513D9000A7B41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE010623197513D9000A7B41 /* AppDelegate.m */; };
 		BE010627197513D9000A7B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE010625197513D9000A7B41 /* Main.storyboard */; };
-		BE01062A197513D9000A7B41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE010629197513D9000A7B41 /* ViewController.m */; };
 		BE01062C197513D9000A7B41 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE01062B197513D9000A7B41 /* Images.xcassets */; };
 		BE010633197513D9000A7B41 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE010632197513D9000A7B41 /* XCTest.framework */; };
 		BE010634197513D9000A7B41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE010613197513D9000A7B41 /* Foundation.framework */; };
@@ -24,6 +23,12 @@
 		BE01064919751418000A7B41 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE01064819751418000A7B41 /* CoreData.framework */; };
 		BE01064E19751567000A7B41 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BE01064D19751567000A7B41 /* CoreDataHelper.m */; };
 		BE010651197527BF000A7B41 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE010650197527BF000A7B41 /* CoreDataTableViewController.m */; };
+		BEAD2C8C1987A13A001AF7DD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAD2C8B1987A13A001AF7DD /* SWRevealViewController.m */; };
+		BEAD2C901987A7DD001AF7DD /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = BEAD2C8E1987A7DD001AF7DD /* menu.png */; };
+		BEAD2C911987A7DD001AF7DD /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEAD2C8F1987A7DD001AF7DD /* menu@2x.png */; };
+		BEAD2C941987AB0E001AF7DD /* RemindersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAD2C931987AB0E001AF7DD /* RemindersTableViewController.m */; };
+		BEAD2C971987B026001AF7DD /* SidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAD2C961987B026001AF7DD /* SidebarTableViewController.m */; };
+		BEAD2C9A1987B3BC001AF7DD /* TimersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAD2C991987B3BC001AF7DD /* TimersTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +53,6 @@
 		BE010622197513D9000A7B41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE010623197513D9000A7B41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BE010626197513D9000A7B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BE010628197513D9000A7B41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BE010629197513D9000A7B41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BE01062B197513D9000A7B41 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE010631197513D9000A7B41 /* NeverMissOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeverMissOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE010632197513D9000A7B41 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,6 +64,16 @@
 		BE01064D19751567000A7B41 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
 		BE01064F197527BF000A7B41 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
 		BE010650197527BF000A7B41 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		BEAD2C8A1987A13A001AF7DD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		BEAD2C8B1987A13A001AF7DD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		BEAD2C8E1987A7DD001AF7DD /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		BEAD2C8F1987A7DD001AF7DD /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		BEAD2C921987AB0E001AF7DD /* RemindersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindersTableViewController.h; sourceTree = "<group>"; };
+		BEAD2C931987AB0E001AF7DD /* RemindersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindersTableViewController.m; sourceTree = "<group>"; };
+		BEAD2C951987B026001AF7DD /* SidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarTableViewController.h; sourceTree = "<group>"; };
+		BEAD2C961987B026001AF7DD /* SidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarTableViewController.m; sourceTree = "<group>"; };
+		BEAD2C981987B3BC001AF7DD /* TimersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimersTableViewController.h; sourceTree = "<group>"; };
+		BEAD2C991987B3BC001AF7DD /* TimersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimersTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,12 +135,17 @@
 		BE010619197513D9000A7B41 /* NeverMissOut */ = {
 			isa = PBXGroup;
 			children = (
+				BEAD2C891987A06C001AF7DD /* Library */,
 				BE01064B197514E6000A7B41 /* Generic Core Data Classes */,
 				BE010622197513D9000A7B41 /* AppDelegate.h */,
 				BE010623197513D9000A7B41 /* AppDelegate.m */,
 				BE010625197513D9000A7B41 /* Main.storyboard */,
-				BE010628197513D9000A7B41 /* ViewController.h */,
-				BE010629197513D9000A7B41 /* ViewController.m */,
+				BEAD2C981987B3BC001AF7DD /* TimersTableViewController.h */,
+				BEAD2C991987B3BC001AF7DD /* TimersTableViewController.m */,
+				BEAD2C921987AB0E001AF7DD /* RemindersTableViewController.h */,
+				BEAD2C931987AB0E001AF7DD /* RemindersTableViewController.m */,
+				BEAD2C951987B026001AF7DD /* SidebarTableViewController.h */,
+				BEAD2C961987B026001AF7DD /* SidebarTableViewController.m */,
 				BE01062B197513D9000A7B41 /* Images.xcassets */,
 				BE01061A197513D9000A7B41 /* Supporting Files */,
 			);
@@ -137,6 +155,7 @@
 		BE01061A197513D9000A7B41 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BEAD2C8D1987A7D0001AF7DD /* Images */,
 				BE01061B197513D9000A7B41 /* NeverMissOut-Info.plist */,
 				BE01061C197513D9000A7B41 /* InfoPlist.strings */,
 				BE01061F197513D9000A7B41 /* main.m */,
@@ -174,6 +193,24 @@
 			name = "Generic Core Data Classes";
 			sourceTree = "<group>";
 		};
+		BEAD2C891987A06C001AF7DD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				BEAD2C8A1987A13A001AF7DD /* SWRevealViewController.h */,
+				BEAD2C8B1987A13A001AF7DD /* SWRevealViewController.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		BEAD2C8D1987A7D0001AF7DD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BEAD2C8E1987A7DD001AF7DD /* menu.png */,
+				BEAD2C8F1987A7DD001AF7DD /* menu@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,6 +221,7 @@
 				BE01060C197513D9000A7B41 /* Sources */,
 				BE01060D197513D9000A7B41 /* Frameworks */,
 				BE01060E197513D9000A7B41 /* Resources */,
+				50524F424C454D533F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -250,7 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEAD2C901987A7DD001AF7DD /* menu.png in Resources */,
 				BE01062C197513D9000A7B41 /* Images.xcassets in Resources */,
+				BEAD2C911987A7DD001AF7DD /* menu@2x.png in Resources */,
 				BE01061E197513D9000A7B41 /* InfoPlist.strings in Resources */,
 				BE010627197513D9000A7B41 /* Main.storyboard in Resources */,
 			);
@@ -266,16 +306,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50524F424C454D533F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE01060C197513D9000A7B41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE01062A197513D9000A7B41 /* ViewController.m in Sources */,
 				BE010624197513D9000A7B41 /* AppDelegate.m in Sources */,
+				BEAD2C9A1987B3BC001AF7DD /* TimersTableViewController.m in Sources */,
 				BE01064E19751567000A7B41 /* CoreDataHelper.m in Sources */,
+				BEAD2C8C1987A13A001AF7DD /* SWRevealViewController.m in Sources */,
+				BEAD2C941987AB0E001AF7DD /* RemindersTableViewController.m in Sources */,
 				BE010620197513D9000A7B41 /* main.m in Sources */,
 				BE010651197527BF000A7B41 /* CoreDataTableViewController.m in Sources */,
+				BEAD2C971987B026001AF7DD /* SidebarTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +400,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -379,7 +438,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -403,6 +462,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NeverMissOut/NeverMissOut-Prefix.pch";
 				INFOPLIST_FILE = "NeverMissOut/NeverMissOut-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -416,6 +476,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NeverMissOut/NeverMissOut-Prefix.pch";
 				INFOPLIST_FILE = "NeverMissOut/NeverMissOut-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -480,6 +541,7 @@
 				BE010644197513D9000A7B41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE010645197513D9000A7B41 /* Build configuration list for PBXNativeTarget "NeverMissOutTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +550,7 @@
 				BE010647197513D9000A7B41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
